@@ -1,0 +1,17 @@
+{
+  "name": "aisync-onlinepitch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "export:pitch": "node ./scripts/export-pitch-slides.js",
+    "build": "echo Static site ready."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "pdfjs-dist": "^2.16.105"
+  }
+}

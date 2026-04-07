@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pitch Deck Online</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <main class="viewer" aria-label="Visor de pitch deck">
+      <button class="nav-arrow nav-prev" id="prevBtn" aria-label="Slide anterior">◀</button>
+      <div class="slide-frame">
+        <img id="slideImage" src="" alt="Slide del pitch deck" />
+      </div>
+      <button class="nav-arrow nav-next" id="nextBtn" aria-label="Siguiente slide">▶</button>
+    </main>
+
+    <footer class="ribbon" id="ribbon" aria-label="Navegación de secciones">
+      <span id="slideCounter" class="ribbon-counter">Slide 1 / 17</span>
+    </footer>
+  </div>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
