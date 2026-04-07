@@ -103,11 +103,13 @@ body {
   scrollbar-width: thin;
 }
 .ribbon-counter {
-  margin-left: auto;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
   white-space: nowrap;
   font-size: 0.88rem;
   color: #4b5563;
-  padding-left: 1rem;
 }
 .ribbon button {
   border: 1px solid transparent;
